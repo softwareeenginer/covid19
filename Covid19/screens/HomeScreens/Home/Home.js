@@ -40,7 +40,7 @@ class Home extends Component {
                             activeTabStyle={HomeStyle.home_tab_activeTabStyle}
                             textStyle={HomeStyle.home_tab_textStyle}
                             activeTextStyle={HomeStyle.home_tab_activeTextStyle}
-                            heading={t('homepage')}
+                            heading={t('news')}
                         >
                             <News />
                         </Tab>

@@ -26,3 +26,14 @@ export const HomeStyle = StyleSheet.create({
     home_tab_textStyle:{color:black,fontSize:14,fontStyle:'italic',fontWeight:'bold'},
     home_tab_activeTextStyle:{color:white,fontWeight:'bold',fontStyle:'italic',fontSize:17},
 });
+export const NewsStyle = StyleSheet.create({
+    news_moth_view:{flex:1},
+    news_touch:{width:'95%',height:150,alignSelf:'center',borderWidth:2,borderRadius:8,borderColor:'#c0c0c0',marginTop:20,flexDirection:'row',justifyContent:'space-between'},
+    news_image_view:{flexDirection:'row',width:'45%',alignItems:'center'},
+    news_image:{height:130,width:'90%',borderRadius:8,marginLeft:8},
+    news_all_text_view:{width:'55%'},
+    news_title:{alignSelf:'center',fontSize:15,fontStyle:'italic',fontWeight:'bold',marginTop:2,color:'#c0c0c0'},
+    news_text_view:{width:'90%',alignSelf:'center',height:'79%'},
+    news_text:{fontSize:13,color:'#d0d0d0'},
+
+});
