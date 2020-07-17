@@ -1,6 +1,10 @@
 {
   "homepage": "HomePage",
   "news": "News",
-  "about_covid19": "About Covid-19"
+  "about_covid19": "About Covid-19",
+  "whats_covid": "What is Covid-19?",
+  "covid_miscopceptions": "Misconceptions about Covid-19",
+  "distance_rules": "Why There are Distance Rules?",
+  "covid_history": "History of Covid-19"
 }
 

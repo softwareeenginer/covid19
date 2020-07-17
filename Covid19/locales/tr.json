@@ -1,7 +1,11 @@
 {
   "homepage": "Ana Sayfa",
   "news": "Haberler",
-  "about_covid19": "Covid-19 Hakkında"
+  "about_covid19": "Covid-19 Hakkında",
+  "whats_covid": "Covid-19 Nedir?",
+  "covid_miscopceptions": "Covid-19 Hakkında Yanlış Bilinenler",
+  "distance_rules": "Mesafe Kuralı Neden Var?",
+  "covid_history": "Covid-19 Hikayesi"
 }
 
 
