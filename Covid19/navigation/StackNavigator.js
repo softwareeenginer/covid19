@@ -3,7 +3,18 @@ import {createStackNavigator} from "@react-navigation/stack";
 import DrawerNavigator from "./DrawerNavigator";
 
 // ------------- All Screens ------------- //
+
+// ------------- Sidebar Elements Screens ------------- //
+import WorldStatus from '../screens/HomeScreens/Home/SideBarScreens/WorldStatus';
+import TurkeyStatus from '../screens/HomeScreens/Home/SideBarScreens/TurkeyStatus';
+import MedicinesUse from '../screens/HomeScreens/Home/SideBarScreens/MedicinesUse';
+import Suggestions from '../screens/HomeScreens/Home/SideBarScreens/Suggestions';
+
 const stackNavigator = {
+    Suggestions,
+    MedicinesUse,
+    TurkeyStatus,
+    WorldStatus,
     Home: DrawerNavigator,
 }
 

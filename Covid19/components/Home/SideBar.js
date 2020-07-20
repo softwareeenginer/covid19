@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import {View,Text} from 'react-native';
-
+import {View} from 'react-native';
+import SideBarElements from './SideBarElements';
+import {SideBarandElementsStyles} from '../../assets/styles/styles';
 class SideBar extends Component {
     constructor(props) {
         super(props);
@@ -9,11 +10,10 @@ class SideBar extends Component {
 
     render() {
         return (
-            <View>
-                <Text>Menü</Text>
+            <View style={SideBarandElementsStyles.side_moth_view}>
+                <SideBarElements {...this.props} />
             </View>
         );
     }
 }
-
 export default SideBar;

@@ -13,7 +13,7 @@ export const GeneralStyle = StyleSheet.create({
     gray_line:{height:2, backgroundColor: gray,elevation:10},
 
     // ------------ Drawer Style ------------ //
-    drawer_width:{width:'45%'},
+    drawer_width:{width:'35%'},
 
 });
 
@@ -63,5 +63,15 @@ export const InformationStyle = StyleSheet.create({
     info_two_image:{height:70,width:'45%',borderRadius:10},
     info_two_text_view:{marginLeft:20,width:'55%'},
     info_two_text:{width:'80%',fontSize:14,fontWeight:'bold',fontStyle:'italic',color:white},
+});
+
+//----------  Sidebar styles (in homepage)-[Drawer] ----------//
+export const SideBarandElementsStyles = StyleSheet.create({
+    side_moth_view:{flex:1,backgroundColor:white,alignItems:'center'},
+
+    //----------  SideBarElements styles ----------//
+    side_touch:{alignItems:'center',marginTop:50},
+    side_icon:{color:dark_red},
+    side_text:{marginTop:8,fontStyle:'italic',fontWeight:'bold',color:dark_red,fontSize:11,textAlign:'center'},
 
 });
