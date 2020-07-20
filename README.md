@@ -4,4 +4,4 @@
     <b>The Home Screen:<b>
   <br>
 
-![Ekran Resmi 2020-07-17 20 22 13](https://user-images.githubusercontent.com/57998586/87814424-641f0880-c86c-11ea-83ad-5e85dac8c425.png)
+![ezgif com-optimize](https://user-images.githubusercontent.com/57998586/87830317-765b6f80-c889-11ea-8638-140915e4abd2.gif)
