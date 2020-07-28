@@ -4,4 +4,5 @@
     <b>The Home Screen:<b>
   <br>
 
-![ezgif com-optimize](https://user-images.githubusercontent.com/57998586/87830317-765b6f80-c889-11ea-8638-140915e4abd2.gif)
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/57998586/88695252-4bcfa900-d10a-11ea-971d-60ea4d16a313.gif)
+
