@@ -1,5 +1,5 @@
 import {StyleSheet} from "react-native";
-import {black, dark_gray, dark_red, gray, white} from './colors';
+import {black, dark_blue, dark_gray, dark_red, gray, white} from './colors';
 
 //----------  ----------//
 
@@ -73,5 +73,29 @@ export const SideBarandElementsStyles = StyleSheet.create({
     side_touch:{alignItems:'center',marginTop:50},
     side_icon:{color:dark_red},
     side_text:{marginTop:8,fontStyle:'italic',fontWeight:'bold',color:dark_red,fontSize:11,textAlign:'center'},
+});
+
+//----------  WorldStatus styles (in SideBar) ----------//
+export const WorldStatusStyles = StyleSheet.create({
+    world_moth_view:{flex:1,backgroundColor:white},
+    world_scroll_view_and_normal_view:{flex:1},
+    world_cases_number_view:{justifyContent:'center',alignItems:'center',marginTop:40,flexDirection:'row'},
+    world_cases_number:{fontSize:25,fontWeight:'bold'},
+    world_cases:{fontSize:28,fontWeight:'bold',fontStyle:'italic',color:dark_blue},
+    world_death_number_view:{justifyContent:'center',alignItems:'center',marginTop:10,flexDirection:'row'},
+    world_death_number:{fontSize:25,fontWeight:'bold'},
+    world_death:{fontSize:28,fontWeight:'bold',fontStyle:'italic',color:dark_red},
+    world_noc_dark_and_light_view:{marginVertical:40,alignItems:'center'},
+
+    //----------  NOCLight styles ----------//
+    noclight_moth_view:{flexDirection:'row',alignSelf:'center'},
+    noclight_width_view:{width:'60%'},
+    noclight_country:{fontWeight:'bold'},
+
+    //----------  NOCDark styles ----------//
+    nocdark_moth_view:{flexDirection:'row',alignSelf:'center',backgroundColor:gray},
+    nocdark_width_view:{width:'60%'},
+    nocdark_country:{fontWeight:'bold'},
+
 
 });

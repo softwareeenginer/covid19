@@ -9,12 +9,20 @@ class TopBar extends Component{
     }
     render(){
         return(
-            <View style={GeneralStyle.topbar_mom_view}>
-                <TouchableOpacity style={GeneralStyle.topbar_touch}>
-                    <Icon type='Octicons' name='chevron-left'/>
-                </TouchableOpacity>
-                <Text style={GeneralStyle.topbar_text}>Başlık</Text>
-            </View>
+            <>
+                <View style={GeneralStyle.topbar_mom_view}>
+                    <TouchableOpacity
+                        style={GeneralStyle.topbar_touch}
+                        onPress={()=>{
+                            this.props.navigation.goBack()
+                        }}
+                    >
+                        <Icon type='Octicons' name='chevron-left'/>
+                    </TouchableOpacity>
+                    <Text style={GeneralStyle.topbar_text}>{this.props.toptitle}</Text>
+                </View>
+                <View style={GeneralStyle.gray_line}/>
+            </>
         )
     }
 }
